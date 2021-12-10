@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Doctor</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div>
+                <div id="logo-area">
+                    <div class="logo">
+                        Logo
+                    </div>
+                    <p>BUSINESS NAME</p>
+                </div>
+                <ul>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:amoswings7@gmail.com">
+                        email us
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:0814599837">call us today</a>
+                    </li>
+                </ul>
+                <div id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav>
+                <select class="nav-select-input" name="men" id="men-option" value="MEN'S HEALTH">
+                    <option value="">MEN'S HEALTH</option>
+                    <option value="">Erectile Dysfunction</option>
+                    <option value="">Hair Loss</option>
+                    <option value="">Premature Ejaculation</option>
+                </select>
+                <select class="nav-select-input" name="men" id="women-option" value="WOMEN'S HEALTH">
+                    <option value="">WOMEN'S HEALTH</option>
+                    <option value="">Period Delay</option>
+                    <option value="">Weight Loss</option>
+                    <option value="">Acne</option>
+                    <option value="">Migraine</option>
+                </select>
+                <select class="nav-select-input" name="men" id="general-option" value="MORE COMMON TREATMENTS">
+                    <option value="">Acid Reflux</option>
+                    <option value="">Asthma</option>
+                </select>
+            </nav>
+        </div>
+
+
+
+        <!-- Navigation Menu for Mobile -->
+        <div id="mobile-nav">
+            <nav>
+                <ul id="contact-us">
+                    <li>
+                        <a href="mailto:amoswings7@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        email us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:0814599837">
+                            <i class="fas fa-phone-alt"></i>
+                            call us today
+                        </a>
+                    </li>
+                </ul>
+                <ul id="navigations">
+                    <li tabindex="1">
+                        <p>
+                            MEN'S HEALTH
+                        </p>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Erectile Dysfunction</a>
+                            </li>
+                            <li>
+                                <a href="#">Hair Loss</a>
+                            </li>
+                            <li>
+                                <a href="#">Premature Ejaculation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li tabindex="2">
+                        <p>
+                            WOMEN'S HEALTH
+                        </p>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Period Delay</a>
+                            </li>
+                            <li>
+                                <a href="#">Weight Loss</a>
+                            </li>
+                            <li>
+                                <a href="#">Acne</a>
+                            </li>
+                            <li>
+                                <a href="#">Migraine</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li tabindex="3">
+                        <p>
+                            MORE COMMON TREATMENTS
+                        </p>
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Acid Reflux</a>
+                            </li>
+                            <li>
+                                <a href="#">Asthma</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="close-btn">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+
+        <!-- intro section -->
+        <div id="intro-section">
+            <h1>WE OFFER GENUINE TREATMENTS</h1>
+            <p>No need to see a doctor in person and of cause no appointments are neccesary. We offer free prescription in a form of an online doctor service.
+            </p>
+            <br>
+            <p>
+                Our main focus is to protect, promote and maintain the health, safety and wellbeing of patients and the public to ensure accessible quality pharmaceutical service for all people from various backgrounds.
+            </p>
+
+        </div>
+        <div id="category-container">
+            <div id="header">
+                <h1>COMMON TREATMENTS</h1>
+                <div>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div id="category-holder">
+                <!-- <div class="category">
+                    <img src="public/weight-loss.jpg" alt="weight-loss">
+                    <P>WEIGHT LOSS</P>
+                </div> -->
+            </div>
+            <div class="btn-container">
+                <button id="view-more-btn">
+                    <i class="far fa-plus-square"></i>
+                    VIEW MORE TREATMENTS
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
