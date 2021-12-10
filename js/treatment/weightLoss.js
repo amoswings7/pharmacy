@@ -62,17 +62,19 @@ burgerMenu.addEventListener('click',(e)=>{
 
 
 
-fetch('./productData.json')
+fetch('../../productData.json')
     .then((response)=>{
-        return response.json()
+        console.log(response)
+        return response.text()
     })
     .then(data=>{
         const name = 'weightLoss'
-        if(name in data){
-            data[name].forEach(treatment=>{
-                createProductElements(treatment,productSection)
-            })
-        }
+        console.log(data)
+        // if(name in data){
+        //     data[name].forEach(treatment=>{
+        //         createProductElements(treatment,productSection)
+        //     })
+        // }
     })
     .catch(error => console.log(error))
 
