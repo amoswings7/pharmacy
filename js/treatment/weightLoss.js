@@ -69,12 +69,12 @@ fetch('../productData.json')
     })
     .then(data=>{
         const name = 'weightLoss'
-        console.log(data)
-        // if(name in data){
-        //     data[name].forEach(treatment=>{
-        //         createProductElements(treatment,productSection)
-        //     })
-        // }
+        // console.log(data)
+        if(name in data){
+            data[name].forEach(treatment=>{
+                createProductElements(treatment,productSection)
+            })
+        }
     })
     .catch(error => console.log(error))
 

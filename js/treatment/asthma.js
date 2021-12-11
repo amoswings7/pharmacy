@@ -63,7 +63,7 @@ burgerMenu.addEventListener('click',(e)=>{
 
 
 
-fetch('../../productData.json')
+fetch('../productData.json')
     .then((response)=>{
         return response.json()
     })
