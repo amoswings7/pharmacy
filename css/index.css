@@ -242,7 +242,7 @@ body {
   color: #264653;
 }
 
-#mobile-nav nav > ul#navigations > li:focus > .submenu {
+#mobile-nav nav > ul#navigations > li:focus-within > .submenu {
   margin-top: 0;
 }
 

@@ -230,13 +230,14 @@ body{
                         }
                     }
                 }
-                &:focus>.submenu{
+                &:focus-within>.submenu{
                     margin-top: 0;
                 }
             }
         }
     }
 }
+
 
 
 

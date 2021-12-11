@@ -64,8 +64,8 @@ burgerMenu.addEventListener('click',(e)=>{
 
 fetch('../productData.json')
     .then((response)=>{
-        console.log(response)
-        return response.text()
+        // console.log(response)
+        return response.json()
     })
     .then(data=>{
         const name = 'weightLoss'
